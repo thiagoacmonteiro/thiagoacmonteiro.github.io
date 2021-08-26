@@ -17,7 +17,6 @@ header {
   justify-content: center;
   align-items: center;
   font-size: x-large;
-  /* border: 1px solid; */
   height: 200px;
 }
 
@@ -30,30 +29,29 @@ main {
 .home-button {
   padding: 25px 35px;
   background-color: rgb(152, 4, 250);
+  opacity: 95%;
   border-style: hidden;
   border-radius: 6px;
   font-size: 25px;
   color: aliceblue;
-  box-shadow: rgba(15, 247, 247, 0.589) 3px 3px, rgba(17, 248, 237, 0.301) 6px 6px, rgba(63, 255, 245, 0.2) 9px 9px, rgba(46, 240, 224, 0.1) 12px 12px, rgba(46, 217, 240, 0.05) 15px 15px;
-  margin-bottom: 30px;  
+  box-shadow: rgba(15, 247, 247, 0.589) 0 3px 3px 3px, rgba(17, 248, 237, 0.301) 0 6px 6px 6px, rgba(63, 255, 245, 0.2) 0 9px 9px 9px, rgba(46, 240, 224, 0.1) 0 12px 12px 12px, rgba(46, 217, 240, 0.05) 15px 15px;
+  margin-bottom: 30px;
+  align-self: center;  
 }
 
-.left {
-  align-self:flex-start;
-  margin-left: 85px;
+.medium {
+  width: 300px;
 }
 
-.right {
-  align-self:flex-end;
-  margin-right: 65px;
+#last-buttons {
+    display: flex;
+    justify-content: space-between;
 }
 
-.down-left {
-  align-self: flex-start;
-  margin-left: 45px;  
+.last {
+    width: 160px;
+    text-align: center;
+    margin: 0 15px;
 }
 
-.down-right {
-  align-self: flex-end;
-  margin-right: 35px;
-}
+
