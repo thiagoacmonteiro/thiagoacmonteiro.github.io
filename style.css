@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url('images/Lamp\ home\ page.jpg');
+  background-size: 1400px;
+  background-position: top;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+header {
+  display: flex;
+  color: aliceblue;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  /* border: 1px solid; */
+  height: 200px;
+}
+
