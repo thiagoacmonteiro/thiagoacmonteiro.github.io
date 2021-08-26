@@ -1,0 +1,57 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-image: url('images/Lamp\ home\ page.jpg');
+  background-size: 1400px;
+  background-position: top;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+}
+
+header {
+  margin-top: -40px;
+  display: flex;
+  color: aliceblue;
+  align-items: flex-start;
+  text-align: center;
+  font-size: 35px;
+  height: 150px;
+}
+
+main {
+  margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-button {
+  padding: 25px 35px;
+  background-color: rgb(152, 4, 250);
+  opacity: 95%;
+  border-style: hidden;
+  border-radius: 6px;
+  font-size: 25px;
+  color: aliceblue;
+  box-shadow: rgba(15, 247, 247, 0.589) 0 3px 3px 3px, rgba(17, 248, 237, 0.301) 0 6px 6px 6px, rgba(63, 255, 245, 0.2) 0 9px 9px 9px, rgba(46, 240, 224, 0.1) 0 12px 12px 12px, rgba(46, 217, 240, 0.05) 15px 15px;
+  margin-bottom: 40px;
+  align-self: center;  
+}
+
+.medium {
+  width: 300px;
+}
+
+#last-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.last {
+    width: 160px;
+    text-align: center;
+    margin: 0 15px;
+}
+
+
