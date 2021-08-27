@@ -16,4 +16,3 @@ function clickHomeButton (event) {
   //   homeButton.style.boxShadow = 'rgba(15, 247, 247, 0.589) 3px 3px, rgba(17, 248, 237, 0.301) 6px 6px, rgba(63, 255, 245, 0.2) 9px 9px, rgba(46, 240, 224, 0.1) 12px 12px, rgba(46, 217, 240, 0.05) 15px 15px';
   event.target.style.boxShadow = 'none';
 }
-
