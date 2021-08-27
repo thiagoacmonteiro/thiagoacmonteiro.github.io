@@ -2,21 +2,21 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url('images/Lamp\ home\ page.jpg');
-  background-size: 1400px;
+  background-size: 1250px 740px;
   background-position: top;
   background-position-x: center;
   background-repeat: no-repeat;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  font-style: italic;
+  height: 2000px;
 }
 
 header {
   margin-top: -40px;
   display: flex;
   color: aliceblue;
-  align-items: flex-start;
   text-align: center;
   font-size: 35px;
+  font-style: italic;
   height: 150px;
 }
 
@@ -27,7 +27,13 @@ main {
   height: 460px;
 }
 
+#buttons {
+  display: flex;
+  flex-direction: column;
+}
+
 .home-button {
+  text-decoration: none;
   padding: 25px 35px;
   background-color: rgb(152, 4, 250);
   opacity: 95%;
@@ -45,19 +51,41 @@ main {
 }
 
 #last-buttons {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .last {
-    width: 160px;
-    text-align: center;
-    margin: 0 15px;
+  width: 160px;
+  text-align: center;
+  margin: 0 15px;
 }
 
 footer {
-    color: whitesmoke;
-    text-align: center;
+  color: whitesmoke;
+  text-align: center;
 }
 
+#div-about-me {
+  background-image: url('images/Tech-news.jpg');
+  width: 420px;
+  height: 740px;
+  background-size: 1150px 440px;
+  margin-top: 20px;
+  margin-left: -10px;
+  color: whitesmoke;
+}
+
+#div-about-me h2 {
+  margin-top: 120px;
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+#div-about-me .text {
+  text-align: center;
+  margin: 0 20px;
+  font-size: 20px;
+}
 
