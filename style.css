@@ -7,7 +7,6 @@ body {
   background-position-x: center;
   background-repeat: no-repeat;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  height: 2000px;
 }
 
 header {
@@ -34,7 +33,8 @@ main {
 
 .home-button {
   text-decoration: none;
-  padding: 25px 35px;
+  text-align: center;
+  padding: 25px 15px;
   background-color: rgb(152, 4, 250);
   opacity: 95%;
   border-style: hidden;
@@ -47,7 +47,7 @@ main {
 }
 
 .medium {
-  width: 300px;
+  width: 250px;
 }
 
 #last-buttons {
