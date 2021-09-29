@@ -1,4 +1,4 @@
-body {
+#index-body {
   display: flex;
   flex-direction: column;
   background-image: url('images/Lamp\ home\ page.jpg');
@@ -7,10 +7,17 @@ body {
   background-position-x: center;
   background-repeat: no-repeat;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  height: 2000px;
 }
 
-header {
+#whoiam-body {
+  display: flex;
+  flex-direction: column;
+  background-image: url('images/Tech-news.jpg');
+  background-size: 1250px 500px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#index-header {
   margin-top: -40px;
   display: flex;
   color: aliceblue;
@@ -20,11 +27,55 @@ header {
   height: 150px;
 }
 
-main {
+#studying-header {
+  margin-top: -135px;
+  margin-left: -2px;
+  margin-bottom: 120px;
+  background-image: url('images/trybe.png');
+  background-size: 400px 400px;
+  background-position: top;
+  background-color: turquoise;
+  width: 400px;
+  height: 400px;
+}
+
+#good-header {
+  margin-top: -300px;
+  margin-left: -8px;
+  margin-bottom: 250px;
+  background-image: url('images/good.jpg');
+  background-size: 714px 836px;
+  background-position-x: center;
+  background-position-y: top;
+  width: 414px;
+  height: 480px;
+}
+
+#main-index {
   margin-top: 120px;
   display: flex;
   flex-direction: column;
   height: 460px;
+}
+
+#studying-main {
+  background-color: rgb(1, 138, 138);
+  height: 600px;
+}
+
+#good-main {
+  background-color: rgb(85, 54, 143);
+  margin-left: -10px;
+  width: 424px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: -250px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    width: 400px;
+    color: aliceblue;
 }
 
 #buttons {
@@ -34,7 +85,8 @@ main {
 
 .home-button {
   text-decoration: none;
-  padding: 25px 35px;
+  text-align: center;
+  padding: 25px 15px;
   background-color: rgb(152, 4, 250);
   opacity: 95%;
   border-style: hidden;
@@ -47,7 +99,7 @@ main {
 }
 
 .medium {
-  width: 300px;
+  width: 250px;
 }
 
 #last-buttons {
@@ -61,13 +113,19 @@ main {
   margin: 0 15px;
 }
 
+li {
+  color: aliceblue;
+  font-size: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
 footer {
   color: whitesmoke;
   text-align: center;
 }
 
 #div-about-me {
-  background-image: url('images/Tech-news.jpg');
   width: 420px;
   height: 740px;
   background-size: 1150px 440px;
