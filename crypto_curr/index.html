@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CryptoCurr</title>
+  <script src="https://kit.fontawesome.com/d8e887edfe.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <nav class="nav-bar" id="header">
+    <img src="./imgs/cc_logo_transp.png" alt="logo">
+    <h1 class="title">CryptoCurr</h1>
+    <ol class="nav-list">
+      <li><a id="cripto-button" href="#criptos">Criptos</a></li>
+      <li><a href="#news">Notícias</a></li>
+      <li><a href="#footer2">Contato</a></li>
+    </ol>
+  </nav>
+  <!-- <span class="news-section-title">Fique por dentro das últimas notícias do mundo das criptomoedas</span> -->
+  <section id="news" class="news"></section>
+  <section class="news2"></section>
+  <section class="explore-crypto">
+    <h2>Explore Criptomoedas</h2>
+    <div class="total-mc">
+      <p>Market Cap Total:<span id="market-cap"></span></p>
+      <p>Volume Total:<span id="volume"></span></p>
+    </div>
+    <div id="crypto-info">
+      <div class="biggest">
+        <div class="arrow-icon">
+          <i class="fas fa-level-up-alt"></i>
+          <h3>Maiores Lucros [24h]</h3>
+        </div>
+        <section id="winners"></section>
+      </div>
+      <div class="biggest">
+        <div class="arrow-icon">
+          <i class="fas fa-level-down-alt"></i>
+          <h3>Maiores Perdas [24h]</h3>
+        </div>
+        <section id="losers"></section>
+      </div>
+    </div>
+  </section>
+  <main class="main-content" id="criptos">
+  </main>
+  <main class="main-content2" id="criptos2">
+  </main>
+  <section>
+    <div class="email-reg">
+      <p id="email-title">Cadastre seu e-mail para notícias do mercado:</p>
+      <div class="input-button-div">
+        <input class="input is-warning" placeholder="exemplo@email.com" type="text">
+        <button class="button is-success">Enviar</button>
+      </div>
+    </div>
+  </section>
+  <footer class="footer2" id="footer2">
+    <p>Todos os direitos reservados Grupo CryptoCurr &copy</p>
+    <p><a href="https://www.linkedin.com/in/caio-limah/" target="_blank">Caio Lima</a> - <a href="https://www.linkedin.com/in/luizfcmodolo/" target="_blank">Luiz Modolo</a> - <a href="https://www.linkedin.com/in/pedroguarize/" target="_blank">Pedro Guarize</a> - <a href="https://www.linkedin.com/in/thiagoacmonteiro/" target="_blank">Thiago Monteiro</a></p>
+    <p><a href="#header">Voltar ao Topo!</a></p>
+  </footer>
+
+  <script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+
+  <script src="./script.js"></script>
+</body>
+</html>
